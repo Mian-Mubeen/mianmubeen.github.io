@@ -1,0 +1,152 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+/* flex-direction: column; */
+height: 10vh;
+justify-content: center;
+}
+#mnav{
+    font-weight: bolder;
+    display: flex;
+    width: 35.8vw;
+    height: 35vh;
+    border: 2px solid green;
+    z-index: 5;
+   position:absolute;
+   left: 68.5%;
+   /* transition: all 1s ease-in-out .3s; */
+   display: none;
+   z-index: 4;
+}
+.icon{
+    display: block;
+    /* position: sticky; */
+}
+#logo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px;
+}
+.navbar ul{
+    display: none;
+} 
+.navbar ul li{
+    position: relative;
+    top: -1.5rem;
+}
+.navbar ul li a{
+    font-size: 1rem;
+}
+#home::before{
+    height: 50vh;
+}
+#home{
+
+font-size: 1rem;
+}
+#container{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.our {
+    position: relative;
+    top: 5.5rem;
+
+}
+#box1,#box2,#box3,#box4,#box5,#box6{
+    position: relative;
+    min-width: 30vw;
+    /* right: 3rem; */
+    /* display: flex; */
+    margin: 1.5rem;
+    height: 40vh;
+}
+
+#client h1{
+  position:absolute;
+/* margin-left: 25.5rem; */
+
+}
+#client{
+    /* flex-direction: column; */
+    /* border: none; */
+    /* flex-wrap: wrap; */
+   
+    /* display: flex; */
+    height: 25vh;
+    background:center;
+}
+#client::before{
+    height:25vh ;
+}
+ /*#client-item,#client-item1,#client-item2,#client-item3
+ {
+    
+    
+    position: relative;
+    padding: 0px;
+    top: 50%;
+   
+}  */
+ #client-item img{
+
+    height: 70px;
+    width: 70px;
+}
+#client-item1 a img{
+
+    height: 70px;
+    width: 70px;
+}
+#client-item2 a img{
+
+    height: 70px;
+    width: 70px;
+}
+ #client-item3 img{
+
+    height: 70px;
+    width: 70px;
+}  
+#client-item,#client-item1,#client-item2,#client-item3
+{
+    
+  margin: 1rem;
+  /* right: 5rem; */
+}
+.clue{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    position: absolute;
+    top: 5rem;
+  
+    height: 13vh;
+    /* border: 2px solid green; */
+left: 2%;
+}
+
+#client h1{
+    left: 23%;
+}
+#contact{
+    border: none;
+    height: 60vh;
+}
+#foot{
+    height: 6.2vh;
+    top: 8rem;
+
+}
+#contact::before{
+    height: 70vh;
+}
+#contact{
+  margin-top:90px;  
+}
+input,#btni
+{
+padding: .5rem 2rem;    
+}
